@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. Uses system native Theme.DeviceDefault.NoActionBar for zero-dependency styling -->
+    <style name="Theme.OneKeyUsbDebug" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">#0F172A</item>
+        <item name="android:navigationBarColor">#0F172A</item>
+        <item name="android:windowBackground">#0F172A</item>
+    </style>
+</resources>

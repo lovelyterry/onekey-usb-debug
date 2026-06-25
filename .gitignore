@@ -1,0 +1,23 @@
+# Gradle files
+.gradle/
+build/
+app/build/
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+local.properties
+
+# Log files
+*.log
+
+# Scratch and Build environment files
+scratch/
+!scratch/setup_and_build.sh
+
+# Built APKs
+*.apk
+
+# GitHub CLI binary
+gh
+gh_*

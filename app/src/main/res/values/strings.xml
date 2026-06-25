@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">一键调试 / OneKey USB Debug</string>
+    <string name="tile_label">一键USB调试</string>
+    
+    <!-- Permission Request Screen -->
+    <string name="permission_required_title">需要 ADB 权限授权</string>
+    <string name="permission_required_desc">本软件在免 Root 下运行，需要通过电脑 ADB 授予安全设置写入权限。请将手机连接至电脑并开启 USB 调试，然后在电脑终端执行以下命令：</string>
+    <string name="copy_command">复制 ADB 命令</string>
+    <string name="copied_toast">已复制到剪贴板</string>
+    <string name="check_permission">我已授权，检测权限</string>
+    <string name="permission_error_toast">未检测到权限，请确认命令执行成功</string>
+    <string name="permission_success_toast">授权成功！</string>
+    <string name="root_grant">使用 Root 自动授权</string>
+    <string name="root_success_toast">Root 授权成功！</string>
+    <string name="root_failed_toast">Root 授权失败，请确认设备已 Root 并允许了 Root 权限申请</string>
+
+    <!-- Main Screen -->
+    <string name="status_title">调试控制中心</string>
+    <string name="developer_options_title">开发者选项</string>
+    <string name="developer_options_desc">系统开发和调试功能的总开关</string>
+    <string name="usb_debug_title">USB 调试</string>
+    <string name="usb_debug_desc">允许通过电脑调试手机、运行 ADB 指令</string>
+    <string name="bypass_restrictions_title">解除定制系统限制</string>
+    <string name="bypass_restrictions_desc">自动解除小米安全调试/输入、OPPO权限监控、应用安装扫描等限制</string>
+    <string name="enable_all">一键开启所有</string>
+    <string name="disable_all">一键关闭所有</string>
+    
+    <!-- Usage guide -->
+    <string name="qs_tile_guide_title">💡 快捷使用提示</string>
+    <string name="qs_tile_guide_desc">你可以在手机的下拉快捷通知栏中，添加“一键USB调试”磁贴，无需打开应用即可随时秒切换状态！\n\n另外，它还支持通过 Tasker/MacroDroid 发送广播进行控制，广播 Action 如下：\ncom.lovelyterry.onekey.usbdebug.action.TOGGLE</string>
+</resources>
